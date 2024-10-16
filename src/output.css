@@ -719,11 +719,6 @@ video {
   border-color: rgb(96 165 250 / var(--tw-border-opacity));
 }
 
-.border-rose-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(244 63 94 / var(--tw-border-opacity));
-}
-
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
@@ -754,6 +749,10 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-16 {
@@ -903,11 +902,6 @@ html {
 .abt{
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(207,253,29,0.6643907563025211) 32%, rgba(252,176,69,1) 100%);
-}
-
-.first-line-indent::first-line {
-  margin-left: 1rem;
-  /* Adjust as needed */
 }
 
 .hover\:text-blue-400:hover {
